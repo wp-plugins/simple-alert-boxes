@@ -1,6 +1,6 @@
 === Simple Alert Boxes ===
 Contributors: mardojai
-Tags: shortcodes, alert, boxes
+Tags: shortcodes, alert, boxes, mensajes, alertas, mensagges
 Requires at least: 3.0.1
 Tested up to: 4.1.1
 Stable tag: 4.1.1
@@ -15,7 +15,12 @@ Use responsives alert boxes with shortcodes.
 
 Is easy, only use the shortcodes.
 
-Example: Use [alert type="success" text="Your text heer"] for a success mensagge. Use [alert type="info" text="Your text heer"] for a info mensagge. Use [alert type="warning" text="Your text heer"] for a warning mensagge. Use [alert type="danger" text="Your text heer"] for a danger mensagge.
+Example: For a success mensagge use: [alert type="success"]Your text here[/alert], for a info mensagge: [alert type="info"]Your text here[/alert], for a warning mensagge: [alert type="warning"]Your text here[/alert] and for a danger mensagge: [alert type="danger"]Your text here[/alert].
+
+(For version 1.0 you must use: [alert type="success" text="Your text heer"]).
+
+DEMO HERE: http://www.rafael.mardojai.com/simple-alert-boxes-plugin/
+GITHUB REPOSITORY: https://github.com/mardojai/Simple-Alert-Boxes-Wordpress-Plugin
 
 
 == Installation ==
@@ -33,3 +38,7 @@ Example: Use [alert type="success" text="Your text heer"] for a success mensagge
 = 1.0 =
 * Responsive Design
 * Shortcodes
+
+= 1.1 =
+* Optimized Shortcodes
+* Support bold, italic, links and more
