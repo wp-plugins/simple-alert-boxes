@@ -39,13 +39,4 @@ function alert_output( $atts, $content ) {
     ), $atts );
     return '<div class="alert ' . $atts['type'] . '"><p>' . $atts['text'] . '' . $content . '</p></div>';
 }
-function my_admin_notice() {
-    ?>
-    <div class="updated">
-        <h2><strong>Simple Alert Boxes Updated!</strong></h2>
-        <p><strong></strong><?php _e( 'Welcome to de New version!', 'my-text-domain' ); ?></p>
-    </div>
-    <?php
-}
-add_action( 'admin_notices', 'my_admin_notice' );
 ?>
