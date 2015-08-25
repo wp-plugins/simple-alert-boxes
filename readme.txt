@@ -35,10 +35,11 @@ GITHUB REPOSITORY: https://github.com/mardojai/Simple-Alert-Boxes-Wordpress-Plug
 
 == Changelog ==
 
+= 1.1 =
+* Optimized Shortcodes
+* Support bold, italic, links and more
+
 = 1.0 =
 * Responsive Design
 * Shortcodes
 
-= 1.1 =
-* Optimized Shortcodes
-* Support bold, italic, links and more
