@@ -24,16 +24,13 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-?>
-<?php
+
 /** Head Enqueue **/
 function simple_alert_boxes_scripts() {
 	wp_enqueue_style( 'simple-alert-boxes', plugins_url( 'css/simple-alert-boxes.css', __FILE__ )  );	
 }
 add_action( 'wp_enqueue_scripts', 'simple_alert_boxes_scripts' );
-?>
 
-<?php
 /** ShortCode **/
 add_shortcode( 'alert', 'alert_output' );
 function alert_output( $atts, $content ) {
@@ -43,9 +40,7 @@ function alert_output( $atts, $content ) {
     ), $atts );
     return '<div class="alert ' . $atts['type'] . '"><p>' . $atts['text'] . '' . $content . '</p></div>';
 }
-?>
 
-<?php
 /** TinyMCE Plugin **/
 function alert_boxes_tinymce() {
     global $typenow;
