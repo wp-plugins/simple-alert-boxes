@@ -29,7 +29,6 @@
 /** Head Enqueue **/
 function simple_alert_boxes_scripts() {
 	wp_enqueue_style( 'simple-alert-boxes', plugins_url( 'css/simple-alert-boxes.css', __FILE__ )  );	
-    wp_enqueue_style( 'simple-alert-boxes-icons', plugins_url( 'css/font-awesome.min.css', __FILE__ )  );	
 }
 add_action( 'wp_enqueue_scripts', 'simple_alert_boxes_scripts' );
 ?>
